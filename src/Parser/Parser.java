@@ -202,7 +202,7 @@ public class Parser {
             return expr;
         }
 
-        throw new RuntimeException("Unexpected token in expression: " + currentToken.getValue());
+        throw new RuntimeException("Unexpected token in expression: " + currentToken.getValue() + " at line: " + currentToken.getLineNumber());
     }
 
     private OutputStatement outputStatement() {

@@ -15,8 +15,9 @@ public class Main {
                                 MUGNA TIPIK t=23.34
                                 MUGNA LETRA a = 'S'
                                 MUGNA TINUOD as= t<=abc
+                                MUGNA NUMERO suwayi = -200+(3-6)*34
                                 xyz = abc + 23
-                                IPAKITA: as
+                                IPAKITA: as & " Hello Kitty " &xyz& " " & a & " [] " & suwayi
                         KATAPUSAN
                 """;
 
